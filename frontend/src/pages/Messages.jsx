@@ -1,4 +1,4 @@
-import { ChatList, Sidebar } from '../sections/chat'
+import { ChatList, MessageInbox, Sidebar } from '../sections/chat'
 
 export default function Messages() {
   return (
@@ -10,6 +10,7 @@ export default function Messages() {
         {/* ChatList */}
         <ChatList />
         {/* Inbox */}
+        <MessageInbox />
       </div>
     </div>
   )

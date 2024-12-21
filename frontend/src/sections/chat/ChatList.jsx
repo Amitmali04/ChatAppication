@@ -74,7 +74,7 @@ export default function ChatList() {
           </button>
         </form>
 
-        <div className="no-scrollbar overflow-auto max-h-full ">
+        <div className="no-scrollbar overflow-auto max-h-full space-y-2.4">
           {/* Chat List Item */}
           {List.map((object, item)=>{
             return <div className="flex cursor-pointer items-center rounded px-4 py-2 hover:bg-gray-2 dark:hover:bg-strokedark" key={item}>
@@ -91,7 +91,7 @@ export default function ChatList() {
           })}
         </div>
       </div>
-      
+
     </div>
   )
 }
