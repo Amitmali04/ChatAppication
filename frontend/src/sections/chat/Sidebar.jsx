@@ -1,5 +1,4 @@
 import { Chat, SignOut } from '@phosphor-icons/react'
-import React from 'react'
 
 export default function Sidebar() {
   return (
@@ -13,7 +12,7 @@ export default function Sidebar() {
 
       </div>
 
-      <div className='flex '>
+      <div className=''>
       <div className='mx-auto border rounded-md border-stroke p-2 dark:border-strokedark'>
         <SignOut size={24} />
       </div>
