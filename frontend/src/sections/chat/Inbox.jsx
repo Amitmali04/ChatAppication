@@ -28,12 +28,78 @@ export default function Inbox() {
       </div>
 
 {/* List of Messages  */}
-<div className="max-h-full space-y-3.5 overflow-auto no-scorllbar px-6 py-7.5 grow">
-  
+<div className="max-h-full space-y-3.5 no-scrollbar overflow-auto px-6 py-7.5 grow">
+  <div className="max-w-125">
+    <p className="mb-2.5 text-sm font-medium">Amit </p>
+    <div className="mb-2.5 rounded-2xl rounded-tl-none bg-gray px-5 py-3 dark:bg-boxdark-2">
+      <p>I want to make an appoinment from 2PM to 5PM</p>
+    </div>
+    <p className="text-xs">1:55</p>
+  </div>
+  <div className="max-w-125 ml-auto">
+    <div className="mb-2.5 rounded-2xl rounded-br-none bg-primary px-5 py-3 dark:bg-boxdark-2">
+      <p className="text-white">Hello, I will check the schedual and inform you</p>
+    </div>
+    <p className="text-xs text-right">1:55</p>
+  </div>
+
+  <div className="max-w-125">
+    <p className="mb-2.5 text-sm font-medium">Amit </p>
+    <div className="mb-2.5 rounded-2xl rounded-tl-none bg-gray px-5 py-3 dark:bg-boxdark-2">
+      <p>I want to make an appoinment from 2PM to 5PM</p>
+    </div>
+    <p className="text-xs">1:55</p>
+  </div>
+  <div className="max-w-125 ml-auto">
+    <div className="mb-2.5 rounded-2xl rounded-br-none bg-primary px-5 py-3 dark:bg-boxdark-2">
+      <p className="text-white">Hello, I will check the schedual and inform you</p>
+    </div>
+    <p className="text-xs text-right">1:55</p>
+  </div>
+  <div className="max-w-125">
+    <p className="mb-2.5 text-sm font-medium">Amit </p>
+    <div className="mb-2.5 rounded-2xl rounded-tl-none bg-gray px-5 py-3 dark:bg-boxdark-2">
+      <p>I want to make an appoinment from 2PM to 5PM</p>
+    </div>
+    <p className="text-xs">1:55</p>
+  </div>
+  <div className="max-w-125 ml-auto">
+    <div className="mb-2.5 rounded-2xl rounded-br-none bg-primary px-5 py-3 dark:bg-boxdark-2">
+      <p className="text-white">Hello, I will check the schedual and inform you</p>
+    </div>
+    <p className="text-xs text-right">1:55</p>
+  </div>
+  <div className="max-w-125">
+    <p className="mb-2.5 text-sm font-medium">Amit </p>
+    <div className="mb-2.5 rounded-2xl rounded-tl-none bg-gray px-5 py-3 dark:bg-boxdark-2">
+      <p>I want to make an appoinment from 2PM to 5PM</p>
+    </div>
+    <p className="text-xs">1:55</p>
+  </div>
+  <div className="max-w-125 ml-auto">
+    <div className="mb-2.5 rounded-2xl rounded-br-none bg-primary px-5 py-3 dark:bg-boxdark-2">
+      <p className="text-white">Hello, I will check the schedual and inform you</p>
+    </div>
+    <p className="text-xs text-right">1:55</p>
+  </div>
+  <div className="max-w-125">
+    <p className="mb-2.5 text-sm font-medium">Amit </p>
+    <div className="mb-2.5 rounded-2xl rounded-tl-none bg-gray px-5 py-3 dark:bg-boxdark-2">
+      <p>I want to make an appoinment from 2PM to 5PM</p>
+    </div>
+    <p className="text-xs">1:55</p>
+  </div>
+  <div className="max-w-125 ml-auto">
+    <div className="mb-2.5 rounded-2xl rounded-br-none bg-primary px-5 py-3 dark:bg-boxdark-2">
+      <p className="text-white">Hello, I will check the schedual and inform you</p>
+    </div>
+    <p className="text-xs text-right">1:55</p>
+  </div>
 </div>
 
 
 {/* Input box  */}
+
 <div className="sticky bottom-0 border-t border-stroke px-6 py-5 dark:border-strokedark dark:bg-bodydark">
 <form 
 className="flex items-center justify-between space-x-4.5">
