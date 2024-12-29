@@ -34,7 +34,7 @@ export default function Inbox() {
 
 
 {/* Input box  */}
-<div className="sticky bottom-0 border-t border-stroke px-6 py-5 dark:border-strokedark dark:bg-bodydark"></div>
+<div className="sticky bottom-0 border-t border-stroke px-6 py-5 dark:border-strokedark dark:bg-bodydark">
 <form 
 className="flex items-center justify-between space-x-4.5">
   <div className="relative w-full">
@@ -48,6 +48,8 @@ className="flex items-center justify-between space-x-4.5">
   </div>
   <button className="flex items-center justify-center h-13 max-w-13 w-full rounded-md bg-primary text-white hover:bg-opacity-90"><PaperPlaneTilt size={22} weight="bold"/></button>
 </form>
+</div>
+
 
     </div>
   );
