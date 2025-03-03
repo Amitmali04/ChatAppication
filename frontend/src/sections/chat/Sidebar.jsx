@@ -1,4 +1,5 @@
 import { Chat, SignOut } from '@phosphor-icons/react'
+import DarkModeSwitcher from '../../components/DarkModeSwitcher'
 
 export default function Sidebar() {
   return (
@@ -12,8 +13,10 @@ export default function Sidebar() {
 
       </div>
 
-      <div className=''>
-      <div className='mx-auto border rounded-md border-stroke p-2 dark:border-strokedark'>
+      <div className='space-y-4.5'>
+        <DarkModeSwitcher />
+
+      <div className='mx-auto border rounded-md border-stroke p-2 dark:border-strokedark hover:bg-stone-100'>
         <SignOut size={24} />
       </div>
       </div>
